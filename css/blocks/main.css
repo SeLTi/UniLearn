@@ -1,0 +1,452 @@
+/* MAIN */
+
+main {
+  width: 100%;
+  flex-grow: 1;
+}
+
+.section {
+  padding-top: 84px;
+}
+
+/* SECTION UNILEARN */
+
+.section--unilearn {
+  min-height: 900px;
+
+  border-bottom: 2px solid #002651;
+}
+
+.hero {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero__title {
+  font-family: "Bruno Ace SC", serif;
+  font-size: 96px;
+  line-height: 1.2;
+
+  width: 1133px;
+
+  margin-bottom: 96px;
+}
+
+.hero__descr {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+
+  width: 826px;
+
+  margin-bottom: 96px;
+}
+
+.hero__footer {
+  width: 404px;
+  height: 72px;
+
+  background-color: #d5742a;
+  color: #ffffff;
+
+  border: 1px solid #d5742a;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.hero__footer:hover {
+  background-color: #ffffff;
+  color: #d5742a;
+}
+
+.hero__picture {
+  position: absolute;
+
+  right: 0;
+  top: 0;
+
+  z-index: -1;
+
+  width: 985px;
+  height: 787px;
+}
+
+.hero__picture_img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+/* SECTION UNILEARN### */
+
+/* SECTION WHY_CHOOSE */
+
+.section--why_choose {
+  min-height: 968px;
+
+  border-bottom: 2px solid #002651;
+}
+
+.hero1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 30px;
+}
+
+.hero1__header {
+  display: flex;
+  align-items: center;
+
+  column-gap: 27px;
+}
+
+.hero1__title {
+  font-family: "Bruno Ace SC", serif;
+  font-size: 48px;
+  line-height: 1.2;
+
+  width: 680px;
+}
+
+.hero1__descr {
+  font-size: 20px;
+  line-height: 1.2;
+
+  width: 973px;
+}
+
+.hero1__footer {
+  display: flex;
+  column-gap: 85px;
+  align-items: center;
+}
+
+.hero1__picture {
+  width: 847px;
+  height: 737px;
+}
+
+.hero1__picture_img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+.hero1__content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 35px;
+}
+
+.hero1__item {
+  display: flex;
+  align-items: center;
+  column-gap: 64px;
+
+  height: 64px;
+}
+
+.hero1__item_icon--expert {
+  width: 35px;
+  height: 30px;
+}
+
+.hero1__item_icon--flexible {
+  width: 35px;
+  height: 33px;
+}
+
+.hero1__item_icon--affordable {
+  width: 35px;
+  height: 27px;
+}
+
+.hero1__item_icon--career {
+  width: 35px;
+  height: 33px;
+}
+
+.hero1__item_icon--interactive {
+  width: 35px;
+  height: 39px;
+}
+
+.hero1__item_icon--trusted {
+  width: 35px;
+  height: 36px;
+}
+
+.hero1__item_svg {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+.hero1__item_text {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.hero1__item_text span {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+/* SECTION WHY_CHOOSE### */
+
+/* SECTION CATEGORIES */
+
+.section--categories {
+  min-height: 842px;
+
+  border-bottom: 2px solid #002651;
+}
+
+/* SECTION CATEGORIES### */
+
+/* SECTION REVIEWS */
+
+.section--reviews {
+  min-height: 813px;
+
+  border-bottom: 2px solid #002651;
+}
+
+.hero2 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 94px;
+}
+
+.hero2__header {
+  display: flex;
+  align-items: center;
+  column-gap: 19px;
+}
+
+.hero2__title {
+  font-family: "Bruno Ace SC", serif;
+  font-size: 48px;
+  line-height: 0.73;
+
+  width: 721px;
+}
+
+.hero2__descr {
+  font-size: 20px;
+  line-height: 1.2;
+
+  width: 936px;
+}
+
+.hero2__footer {
+  display: flex;
+  column-gap: 20px;
+}
+
+.hero2__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border-radius: 50px;
+  border: 2px solid #002651;
+  width: 547px;
+  min-height: 503px;
+}
+
+.hero2__item_name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 164px;
+
+  border-bottom: 2px solid #000000;
+
+  font-size: 36px;
+  text-align: center;
+  /* line-height: 1.22px; */
+}
+
+.hero2__item_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero2__item_review {
+  font-size: 25px;
+  line-height: 1.2;
+
+  padding: 48px 52px 0px 52px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.hero2__item_grade {
+  width: 215px;
+  height: 33px;
+
+  margin-bottom: 44px;
+}
+
+.hero2__item_svg {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+.hero2__item_date {
+  font-size: 25px;
+  line-height: 1.2;
+
+  color: #ababab;
+}
+
+/* SECTION REVIEWS### */
+
+/* SECTION REGISTER */
+
+.section--register {
+  min-height: 433px;
+  background: linear-gradient(91.58deg, #0155b7 0%, #002651 101.27%);
+
+  border-bottom: 2px solid #002651;
+}
+
+.hero3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero3__title {
+  font-family: "Bruno Ace SC", serif;
+  font-size: 48px;
+  line-height: 1.2;
+  color: #ffffff;
+
+  margin-bottom: 50px;
+}
+
+/* SECTION REGISTER### */
+
+/* SECTION NAVIGATION */
+
+.section--navigation {
+  min-height: 947px;
+
+  border-bottom: 2px solid #002651;
+}
+
+.hero4 {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 100px;
+}
+
+.hero4__list {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero4__title {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+
+  font-size: 36px;
+  line-height: 1.2;
+  color: #000000;
+  text-decoration: none;
+
+  transition: all 0.3s ease-in-out;
+
+  margin-bottom: 37px;
+}
+
+.hero4__title:hover {
+  color: #d5742a;
+}
+
+.hero4__title span {
+  position: absolute;
+  right: 0;
+
+  display: block;
+
+  mask-image: url("../../imgs/link_arrow.svg");
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  background-color: #000000;
+
+  width: 18px;
+  height: 30px;
+
+  transition: all 0.3s ease-in-out;
+
+  flex-shrink: 0;
+
+  /* margin-left: 5px; */
+}
+
+.hero4__title:hover span {
+  background-color: #d5742a;
+
+  transform: translateX(5px);
+}
+
+.hero4__item {
+  margin-bottom: 25px;
+}
+
+.hero4__link {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #000000;
+  text-decoration: none;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.hero4__link:hover {
+  color: #d5742a;
+}
+
+.hero4__descr {
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.hero4__title--it span {
+  right: 23px;
+}
+
+.hero4__title--business span {
+  right: -38px;
+}
+
+.hero4__title--data span {
+  right: 14px;
+}
+
+.hero4__title--design span {
+  right: 105px;
+}
+
+/* SECTION NAVIGATION### */

@@ -1,0 +1,79 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 1.2;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn--learn,
+.btn--search {
+  height: 44px;
+  min-width: 122px;
+
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.btn--learn:hover,
+.btn--search:hover {
+  background-color: #d5742a;
+  color: #ffffff;
+}
+
+.btn--sign {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.btn--sign:hover {
+  color: #d5742a;
+  text-decoration: underline;
+}
+
+.btn--register {
+  width: 235px;
+  height: 44px;
+
+  background-color: #d5742a;
+  color: #ffffff;
+}
+
+.btn--register:hover {
+  background-color: #ffffff;
+  color: #d5742a;
+}
+
+.btn--sign_up {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.2;
+
+  margin-bottom: 50px;
+}
+
+.btn--sign_up:hover {
+  color: #d5742a;
+  text-decoration: underline;
+}
+
+.btn--get_started {
+  width: 404px;
+  height: 70px;
+
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.2;
+
+  background-color: #d5742a;
+  color: #ffffff;
+}
+
+.btn--get_started:hover {
+  background-color: #ffffff;
+  color: #d5742a;
+}
