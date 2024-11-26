@@ -77,3 +77,20 @@
   background-color: #ffffff;
   color: #d5742a;
 }
+
+.btn-view {
+  width: 404px;
+  height: 70px;
+
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.2;
+
+  background-color: #d5742a;
+  color: #ffffff;
+}
+
+.btn-view:hover{
+  background-color: #ffffff;
+  color: #d5742a;
+}

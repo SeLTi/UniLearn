@@ -3,16 +3,14 @@
 .footer {
   background: linear-gradient(94.86deg, #0155b7 0%, #002651 100%);
 
-  min-height: 560px;
-
   padding-top: 84px;
   padding-bottom: 30px;
 }
 
-.footer__in{
-    display: flex;
-    flex-direction: column;
-    row-gap: 107px;
+.footer__in {
+  display: flex;
+  flex-direction: column;
+  row-gap: 107px;
 }
 
 .footer__top {
