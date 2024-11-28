@@ -213,7 +213,7 @@ main {
 
 .tabs {
   display: flex;
-  /* justify-content: space-between; */
+  justify-content: center;
 }
 
 .tabs_nav {
@@ -389,6 +389,7 @@ main {
 .hero2 {
   display: flex;
   flex-direction: column;
+  align-items: center;
   row-gap: 94px;
 }
 
